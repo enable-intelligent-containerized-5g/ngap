@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"strings"
 
+	"github.com/enable-intelligent-containerized-5g/openapi/models"
 	"github.com/free5gc/aper"
-	"github.com/free5gc/ngap/logger"
-	"github.com/free5gc/ngap/ngapType"
-	"github.com/free5gc/openapi/models"
+	"github.com/enable-intelligent-containerized-5g/ngap/logger"
+	"github.com/enable-intelligent-containerized-5g/ngap/ngapType"
 )
 
 func TraceDataToModels(traceActivation ngapType.TraceActivation) (traceData models.TraceData) {

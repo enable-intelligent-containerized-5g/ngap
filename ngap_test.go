@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/free5gc/aper"
-	"github.com/free5gc/ngap/ngapType"
+	"github.com/enable-intelligent-containerized-5g/ngap/ngapType"
 )
 
 func TestDecodeBackupAmfName(t *testing.T) {

@@ -3,9 +3,9 @@ package ngapConvert
 import (
 	"net"
 
+	"github.com/enable-intelligent-containerized-5g/ngap/logger"
+	"github.com/enable-intelligent-containerized-5g/ngap/ngapType"
 	"github.com/free5gc/aper"
-	"github.com/free5gc/ngap/logger"
-	"github.com/free5gc/ngap/ngapType"
 )
 
 func IPAddressToString(ipAddr ngapType.TransportLayerAddress) (ipv4Addr, ipv6Addr string) {

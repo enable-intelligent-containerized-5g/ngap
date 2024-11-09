@@ -3,7 +3,7 @@ package ngapConvert
 import (
 	"encoding/binary"
 
-	"github.com/free5gc/ngap/ngapType"
+	"github.com/enable-intelligent-containerized-5g/ngap/ngapType"
 )
 
 func PortNumberToInt(port ngapType.PortNumber) (portInt32 int32) {
